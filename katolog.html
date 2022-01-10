@@ -1,36 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
+
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Каталог</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
+
 <body>
-<ul>
-    <li> <a href="index.html"> Главная </a> </li>
-    <li> <a href="katolog.html"> Каталог </a></li>
-    <li> <a href="about.html"> О нас </a></li>
-</ul>
-<hr>
-<h2>Волейбольная форма</h2>
-
-<table Cellpadding=1>
-            <tr align=center valign=top>
-                <td> <a HREF="inf.html"> <img src="0nQlCxnJdc0.jpg" width=400 height=600 > </a> </td>
-                <td> <a HREF="inf.html"> <img src="anton.jpg" width=400 height=600 > </a> </td>
-                <td> <a HREF="inf.html"> <img src="IMG_1337.JPG" width=400 height=600 > </a> </td>
-            </tr>
-</table>
+<div class="container">
+    <header class="header">
+        <a class="logo" href="#">
+            Волейбол для начинающих
+        </a>
+        <nav>
+            <a class="nav__link" href="index.html"> Главная </a>
+            <a class="nav__link active" href="katolog.html"> Каталог </a>
+            <a class="nav__link" href="about.html"> О нас </a>
+        </nav>
+    </header>
+</div>
 
 
+<div class="container">
+    <div class="cards">
+        <div class="card">
+            <a class="product" HREF="inf.html">
+                <img src="0nQlCxnJdc0.jpg" width=400 height=600>
+            </a>
+            <h2 class="product__name">
+                Женская форма
+            </h2>
+            <h3 class="product__price">
+                1000 р
+            </h3>
+        </div>
+
+        <div class="card">
+            <a class="product" HREF="inf.html">
+                <img src="anton.jpg" width=400 height=600>
+            </a>
+            <h2 class="product__name">
+                Мужская форма
+            </h2>
+            <h3 class="product__price">
+                1000 р
+            </h3>
+        </div>
+
+        <div class="card">
+            <a class="product" HREF="inf.html">
+                <img src="es-5be45e13ea2ad44db1cfd7d6d4c6e47b_521-800x800.jpg" width=400 height=600>
+            </a>
+            <h2 class="product__name">
+                Мяч
+            </h2>
+            <h3 class="product__price">
+                3000 р
+            </h3>
+        </div>
+
+    </div>
+</div>
 
 
-<hr>
-<h2>Мяч Micasa V300</h2>
-<img src="es-5be45e13ea2ad44db1cfd7d6d4c6e47b_521-800x800.jpg" width=400 height=400 >
-<hr>
-<h3>Наши контакты</h3> <ul>
-      <li><b>Телефон</b> - 89154803224</li>
-    <li><b>Email</b> - krbr2004@mail.ru</li>
-    </ul>
+
+
+<div class="container">
+    <footer class="footer">
+        <h3 class="contact">Наши контакты</h3>
+        <p class="contact_info"><b>Телефон </b> - 89154803224 </p>
+        <p class="contact_info"><b>Email</b> - krbr2004@mail.ru </p>
+    </footer>
+
+</div>
 </body>
+
+
 </html>
