@@ -1,5 +1,6 @@
 import sqlite3
 
+
 def init_db(cursor):
 	
 	cursor.executescript('''
@@ -102,13 +103,9 @@ def task3(cursor):
 	return res
 
 def task4(cursor):
-	cursor.execute('SELECT amount FROM history')
+	cursor.execute('SELECT SUM(amount) FROM history')
 	mas = cursor.fetchall()
-	res = 0
-	for ch in mas:
-		ch = ch[0]
-		res+=int(ch)
-	return (res)
+	return (mas[0][0])
 
 
 def task5(cursor):
@@ -121,28 +118,12 @@ def task5(cursor):
 	 ''')
 	
 	mas = cursor.fetchall()
-	return mas[0]
+	return mas[0][0]
 
 
 	
 
 
-name = 'hhmm.db'
 
-con = sqlite3.connect(name)
-
-cursor = con.cursor()
-
-
-print("Логин пользователя, зарегестрировавшегося последним:", task2(cursor))
-
-print("Уникальные года рождения пользователей:",*task3(cursor))
-
-print("Общее количество купленных товаров:",task4(cursor))
-
-print("Средний возраст зарегистрировавшихся покупателей, чья дата регистрации не позже двух месяцев:", *task5(cursor))
-
-con.commit()
-con.close()
 
 
