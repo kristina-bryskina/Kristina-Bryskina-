@@ -4,32 +4,59 @@ body {
 
     font-size: 15px;
     line-height: 1.6;
-    background-color: #36393F;
-    color: #FFF;
+    background-color:  #272727 ;
+    color: #dde;
 }
 .container {
     width: 100%;
-    max-width: 1400px;
+   
     margin: 0 auto;
-    padding: 5px;
+
 }
+
+.container2 {
+    width: 100%;
+    margin: 0 auto;
+    border-top: 1px solid #AAAAAA;
+
+    min-height: 150px;
+
+}
+
+.container1 {
+    width: 100%;
+    
+    margin: 0 auto;
+    
+
+}
+.navv {
+    padding: 135px 135px;
+}
+
 .header {
-    color: #fff;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #000;
-    border-radius: 10px;
+    background-color: #1A1C1D ;
+    border-radius: 1px;
+    height: 60px;
 
 }
 .beauty{
-color: #FFE4E1
+color: #eef;
+text-align: center;
 }
+.center{
+    text-align: center; 
+}
+
 .logo {
-    padding: 0px 10px;
+    padding: 150px 150px;
     font-size: 30px;
     font-weight: 700;
-    color: #fff;
+ 
 
 }
 .nav {
@@ -52,7 +79,7 @@ color: #FFE4E1
     width: 100%;
     height: 3px;
 
-    background-color: #fff;
+    background-color: #eef;
     opacity: 0;
 
     position: absolute;
@@ -64,7 +91,7 @@ color: #FFE4E1
 }
 
 .nav__link:hover {
-    color: #fff;
+
     opacity: 1;
 }
 
@@ -86,20 +113,35 @@ display: flex;
 flex-wrap: wrap;
 margin: 0 auto;
 justify-content: space-around;
-
+padding: 130px;
 }
+
+.photos_brend {
+
+    margin-top: 30px;
+    margin-left: 20px;
+ }
+
 
 .photo{
 margin:  10px ;
 width: 500;
 height:400;
 }
+
+.photo_brend{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
 .about_text{
 }
 .footer{
 display: flex;
-background-color: #000;
+background-color: #1A1C1D ;
 border-radius: 10px;
+padding-left: 130px;
 
 }
 .contact{
@@ -111,7 +153,7 @@ opacity: 0.5;
 padding: 0 10px;
 }
 .intro{
-padding:0 10px;}
+    padding: 0px 150px;;}
 
 .cards{
 margin: 5px;
@@ -126,14 +168,21 @@ justify-content: center;
 }
 
 .card{
-margin: 5px;
-border: 3px solid #FFE4E1;
+margin: 10px;
+margin-bottom: 50px;
+border: 1px solid #cce;
 display: flex;
 flex-direction: column;
 justify-content: center;
 transition: background-color 1s linear;
 background-color: inherit;
+width: 250;
+height: 400px;
 
+}
+.photo_card{
+    width: 250;
+    height: 300px;
 }
 
 .product{
