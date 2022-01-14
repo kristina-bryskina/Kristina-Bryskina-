@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    font-size: 15px;
+    line-height: 1.6;
+    background-color: #36393F;
+    color: #FFF;
+}
+.container {
+    width: 100%;
+    padding: 5px;
+    min-height: calc(100vh - 80px);
+
+}
+.header {
+    color:rosybrown;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    border-radius: 10px;
+
+}
+
+.link {
+    color:ivory;
+    display:flex;
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+
+
+}
+
+.footer {
+
+    background-color: #000;
+    height: 80px;
+    
+}
+.vhod {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+   
+}
+.text {
+    padding: 10 px;
+    font-size: 30px;
+    margin: 10px;
+    color:thistle;
+    text-align: center;
+
+}
+
+.card{
+
+margin: 5px;
+border: 3px solid thistle;
+display: flex;
+flex-direction: column;
+justify-content: center;
+transition: background-color 1s linear;
+background-color: inherit;
+
+}
+
+.cards{
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.text2 {
+    margin: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer_name {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.textt {
+    color:lightsteelblue;
+    font-size: 20px;
+    
+}
