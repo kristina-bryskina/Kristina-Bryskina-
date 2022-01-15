@@ -27,11 +27,47 @@ body {
     width: 100%;
     
     margin: 0 auto;
-    
-
 }
+
+.stoim{
+
+    border: 1px solid #708090;
+    height: 50px !important;
+    width: 200px !important;
+    
+    
+}
+.ram{
+border: 1px solid #dde ;
+}
+
 .navv {
-    padding: 135px 135px;
+    padding: 5px 135px;
+}
+
+.navv1{
+    padding: 5px 360px;
+}
+.ts{
+    
+    font-size: 25px;
+    text-align: center;
+    margin-top: 7px;
+ 
+    
+    
+}
+
+.button{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(113, 136, 162);
+    opacity: 0.75;
+    
+}
+.b{
+    color:#eee;
+
 }
 
 .header {
@@ -116,6 +152,16 @@ justify-content: space-around;
 padding: 130px;
 }
 
+.photos1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding: 50px;
+    max-width: 1500px;
+    }
+
+
 .photos_brend {
 
     margin-top: 30px;
@@ -134,7 +180,10 @@ height:400;
     margin-right: 10px;
 }
 
-
+.page{
+    min-height: calc(100vh-130px)!important;
+    
+}
 .about_text{
 }
 .footer{
@@ -142,6 +191,7 @@ display: flex;
 background-color: #1A1C1D ;
 border-radius: 10px;
 padding-left: 130px;
+
 
 }
 .contact{
@@ -167,6 +217,33 @@ justify-content: center;
     opacity: 1;
 }
 
+.discount{
+
+    margin: 5px;
+margin-bottom: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+background-color: red;
+opacity:0.75;
+width: 50px;
+height: 30px;
+}
+
+.discount_n{
+
+    margin: 5px;
+margin-bottom: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+
+width: 50px;
+height: 30px;
+}
+
 .card{
 margin: 10px;
 margin-bottom: 50px;
@@ -176,13 +253,16 @@ flex-direction: column;
 justify-content: center;
 transition: background-color 1s linear;
 background-color: inherit;
-width: 250;
-height: 400px;
+width: 250px;
+height: 570px;
 
 }
 .photo_card{
-    width: 250;
-    height: 300px;
+    width: 220px;
+    
+    padding-left: 15px;
+    margin-top: 15px;
+    
 }
 
 .product{
@@ -191,6 +271,8 @@ height: 400px;
 
 .product__name{
 text-align: center;
+font-size: 20px;
+
 }
 
 .product__price{
