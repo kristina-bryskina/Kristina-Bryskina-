@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/style.css') }}">
 </head>
 <body>
     <div class="container1">
@@ -18,14 +18,15 @@
 
     <div class="container">
         <header class="header">
-        
-        <nav class = "navv">
-            <a class = "nav__link" href="index.html"> Главная </a>
-            <a class = "nav__link" href="katolog.html"> Каталог </a>
-            <a class = "nav__link active" href="about.html"> О нас </a>
-            <a class = "nav__link" href="sale.html"> Акции и скидки </a>
-        </nav>
-            </header>
+
+            <nav class="navv">
+                
+                <a class="nav__link " href="/"> Главная </a>
+                <a class="nav__link" href="/katolog"> Каталог </a>
+                <a class="nav__link active" href="/about"> О нас </a>
+                <a class="nav__link" href="/sale"> Акции и скидки </a>
+            </nav>
+        </header>
     </div>
     <br> <br> 
 
@@ -37,7 +38,7 @@
 
       <h5>Оставьте свой честный отзыв о нашем сотрудничестве с нами</h5>
 <br> <br>
-  <div class="form">
+  <div class="form">                
       <form method="post" class="formAbout">
  
        <input type="text" name="name" placeholder="Введите Ваше имя" class="input"> <br>

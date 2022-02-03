@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/style.css') }}">
     <title>Document</title>
 </head>
 <body>
@@ -16,14 +16,15 @@
     </div>
     <div class="container">
         <header class="header">
-        
-        <nav class = "navv">
-            <a class = "nav__link" href="index.html"> Главная </a>
-            <a class = "nav__link" href="katolog.html"> Каталог </a>
-            <a class = "nav__link" href="about.html"> О нас </a>
-            <a class = "nav__link active" href="sale.html"> Акции и скидки </a>
-        </nav>
-            </header>
+
+            <nav class="navv">
+                
+                <a class="nav__link " href="/"> Главная </a>
+                <a class="nav__link" href="/katolog"> Каталог </a>
+                <a class="nav__link" href="/about"> О нас </a>
+                <a class="nav__link active" href="/sale"> Акции и скидки </a>
+            </nav>
+        </header>
     </div>
     <br> <br> <br>
 <div class="container">
